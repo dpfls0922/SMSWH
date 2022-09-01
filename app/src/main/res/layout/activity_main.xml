@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="share toy"
+        android:textColor="#4CAF50"
+        android:drawablePadding="5dip"
+        android:textSize="20sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/swing"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="하이브리드 스윙"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/swing_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/frandimal"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="프랜디멀"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/frandimal_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cocomong"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="코코몽의 명작동화"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/cocomong_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/redcar"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="119 소방차"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/redcar_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/racing_car"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="레이싱카"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/racingcar_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/camera"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="팝업 강아지 카메라"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/camera_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jazz"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="재즈 달팽이"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/jazz_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/basketball"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="걸이식 농구대"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/basketball_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cut_fruit"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="과일자르기"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/cut_fruit_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/turtle"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="기어가는 아기 거북이"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Button
+                        android:id="@+id/turtle_more"
+                        android:layout_width="64dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginTop="30dp"
+                        android:text="더보기"
+                        android:textSize="10dp"
+                        android:backgroundTint="#3CB371"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="?attr/actionBarSize" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#77D67A"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu" />
+
+
+</RelativeLayout>
